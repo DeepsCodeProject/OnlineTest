@@ -1,0 +1,30 @@
+
+.user {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .user td, .user th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .user tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .user tr:hover {background-color: #ddd;}
+  
+  .user th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #9bb5dc;
+    color: white;
+  }
+ 
+  
+  input{
+    position: absolute;
+    background-color: #398cb3;
+    height: 37px;
+  }

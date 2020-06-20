@@ -1,0 +1,23 @@
+<div class="container">
+        <table class="user">
+                <tr>
+                  <th>Username</th>
+                  <th>Gender</th>
+                  <th>Email</th>
+                  <th>Username</th>
+                  <th>Password</th>
+                </tr>
+                <tr *ngFor="let userData of userDetails">
+                  <td>{{userData.user.name.first}} {{userData.user.name.last}}</td>
+                  <td>{{userData.user.gender}}</td>
+                  <td>{{userData.user.email}}</td>
+                  <td>{{userData.user.username}}</td>
+                  <td>{{userData.user.password}}</td>
+                </tr>
+           
+              </table>
+              <input type="button" value="Create new User" (click)="createUser()">
+              
+</div>
+
+<router-outlet></router-outlet>
